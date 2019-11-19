@@ -1,7 +1,37 @@
 h1 {
-    color: blue;
+    font-size: 30px;
+    text-align: center;
+
+}
+h2 {
+    font-size: 20px;
+    text-align: center;
 }
 
 table {
-    width: 100%;
+    border-collapse: collapse; 
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
 }
+tr#top {
+    background-color: lightblue;
+}
+th#ID {
+    width:450px;    
+}
+th {
+    border:1px solid black;
+    width:1px;
+    height:1px;
+    text-align: left;
+    padding: 1px;
+    
+}
+
+tr:hover {
+    background-color: lightsalmon;
+}
+
+
+
